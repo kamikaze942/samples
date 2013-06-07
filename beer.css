@@ -1,0 +1,168 @@
+
+body {
+font-family: "Comic Sans MS" , serif; 
+font-size: 18px;
+font-weight: normal;
+color:#5E2605;
+padding: 0px;
+margin: 0px;
+white-space: nowrap; 
+background-color:#9D8851;
+}
+
+h1{  
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+text-shadow: 3.00px 2.00px 4.00px #FF6103;  
+}
+
+p{
+text-align:center;
+}
+
+#wrapper {
+height: 100%; 
+}
+
+.myPosition {
+position: absolute;
+right: 60px;
+top:-20px;
+}
+
+
+#header {  
+height:auto; 
+background: gray;
+border:10px ridge #AA5303;
+white-space: normal;
+padding:25px 10px 10px 20px;
+position:absolute;
+top:50px;
+margin-left:25%;
+width:70%;
+
+}
+#header img{
+padding-right:20px;
+}
+
+#header th:hover{
+cursor:pointer;
+color:#CD9B1D;
+}
+
+
+.login{
+text-align:center;
+}
+
+.banner{
+padding-top:20px;
+text-align:center;
+}
+
+/* modal for voting */
+a[id*="opener"]{
+color:red;
+font-weight:bolder;
+text-shadow:1px 1px 4px #CD9B1D;
+font-size:xx-large;
+text-decoration:none;
+}
+
+a[id*="opener"]:hover{
+text-decoration:overline;
+color:#CD9B1D;
+text-shadow:1px 1px 4px red;
+}
+
+a.vote{
+position:relative;
+z-index:24; 
+color:#000;
+text-decoration:none}
+
+a.vote:hover{z-index:25;}
+
+a.vote span{display: none}
+
+a.vote:hover span{ 
+
+/*the span will display just on :hover state*/
+display:block;
+position:absolute;
+width:120px; right:0; bottom:1em;
+border:3px solid brown;
+background-color:#fff; color:#000;
+text-align: center;
+text-shadow:none;
+text-decoration:none;
+padding:5px 5px 5px 5px;
+}
+
+a.beer {
+position: relative;
+z-index: 24;
+}
+
+a.beer:hover{
+z-index: 25;
+}
+
+a.beer span {
+display: none;
+}
+
+a.beer:hover span{ 
+/*the span will display just on :hover state*/
+display:none;
+position:absolute;
+left:2; bottom:1em;
+border:3px solid brown;
+color:#000;
+text-align: center;
+text-shadow:none;
+text-decoration:none;
+padding:0px 0px 0px 0px;
+width:auto;
+height: auto;
+}
+
+#beer3.sticky {
+  position: fixed;
+  top:200px;
+}
+
+/*footer */
+
+#footer  {
+margin-top: 20px;
+margin-left: auto;
+font-weight: bold;
+text-shadow: 3px 2px 4px #000000;
+outline-color: #4ec647;
+outline: 3px groove  #000000;
+outline: invert;
+margin-right: auto;
+font-family: "Comic Sans MS" , serif;
+color: lime;
+border: 5px groove  #259b12;
+background-color:#7f7f7f;
+text-align: center;
+text-transform: uppercase;
+font-size: large;
+width: 60em;
+}
+
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+#footer p {
+text-shadow: none;
+font-family: "Comic Sans MS" , serif;
+font-size: small;
+color: black;
+text-align: center;
+}
