@@ -1,0 +1,224 @@
+html{
+height: 100%;
+}
+
+body {
+font-size: 14px;
+font-weight: normal; font-family: "Comic Sans MS", Sans-Serif; 
+color:white;
+padding: 0px;
+margin: 0px;
+white-space: nowrap;
+background-image: url("images/back_new2.png"); 
+background-repeat: repeat-x repeat-y;
+background-attachment:fixed;  	
+}
+
+
+#wrapper {
+height: 100%;
+}
+	
+#headbanner{
+width: 70em;
+margin-left:auto;
+margin-right: auto;
+height: 1em;
+}
+
+#headbanner td{
+text-align:center;
+}
+
+
+#options {
+position: absolute;
+z-index: 1;
+margin-left: auto;
+margin-right: auto;
+left: 15%;
+right: 15%;
+font-family: "Comic Sans MS", Sans-Serif;
+font-size: 16px;
+width: 44em;
+text-align: center; 
+}
+
+#nocurse :hover{
+cursor: default;
+}
+
+#options > li {
+color: white; 
+list-style-type:none; 
+float:left; 
+display:block;  
+padding:5px;
+width: 100px;
+height: 55px;
+text-align: center; 
+vertical-align: middle;
+background-color: rgb(10, 0, 40);
+border:4px groove  white;
+border-radius:10px;
+white-space: normal;
+overflow: visible;
+text-shadow: 2.00px 1.00px 5.00px #0a0028;                                
+}
+
+
+
+#options > li:hover ul {
+display:block;   
+}
+
+#options > li a{
+color: white;
+text-shadow: 2.00px 2.00px 3.00px black;
+font-weight: bolder;
+text-decoration: none;
+font-size: 17px;
+}
+
+#options > li:hover {
+background-image: url("images/droplit1.gif");
+background-repeat: no-repeat;
+background-position: center; 
+-moz-border-radius:10px;
+-webkit-border-radius:10px;     
+}
+
+#options > li a:hover {
+color: yellow;
+font-style:italic;
+}
+
+#options li ul {
+margin:0px;
+padding:0px;
+margin-top:15px;
+display:none;
+background-color:black;
+}
+
+#options li ul li {
+list-style-type:none;
+margin:10px 0 0 0;
+width: auto;
+}
+
+#options li ul li a {
+display:block;
+padding:2px 0px;
+color: white;
+font-weight: bolder;
+width: auto;
+}
+
+#options li ul li:hover a {
+color: yellow;background-color: #FD0E35;
+-webkit-border-radius:25px;
+-webkit-box-shadow: -2px -5px 5px rgb(255,61,13);
+-moz-border-radius:10px;
+-moz-box-shadow: -2px -5px 5px rgb(255,61,13);
+}
+
+#subbut2
+{
+ text-align: right;
+background-color:#0a0028;
+font-family: "Comic Sans MS" , serif;
+color:white;
+padding:4px 6px 4px 6px;
+font-size:10px;
+background-color: #0a0028;
+border:4px ridge   #283A90;
+}
+
+.content {
+margin-top:10em;
+padding: 5px 5px 5px 5px;
+height:auto;
+width: 66.2em;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border: 9px groove  #1c1c3d;
+background-color:  #120A8F;
+text-align: center;
+}
+
+#subforums{
+width:100%;
+height:100%;
+border-bottom:8px solid #00003b;
+}
+
+#subforums h1{
+color:blue;
+font-size: medium;
+font-style: italic;
+text-align:left;
+margin-left:10px;
+height:25px;
+}
+
+#subforums p{
+color:blue;
+font-size:12px;
+height:25px;
+}
+
+#subforums a{
+color:blue;
+text-decoration: none;
+text-shadow: 2.00px 1.00px 5.00px #0a0028;	
+}
+
+#subforums a:hover{
+color: #10f504;
+font-size:18px;	
+}
+
+
+#subforums td{
+border-left:3px solid  #17acba;
+border-top:3px solid  #17acba;
+border-bottom:3px solid  #17acba;
+text-align:center;
+background-color:#E8F1D4;
+}
+
+/*footer */
+#footer  {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+bottom: 0 !important;
+bottom: -1px;
+height: 70px;
+left: 5px;
+right: 5px;
+font-weight: bold;
+text-shadow: 3px 2px 4px #000000;
+outline-color: #4ec647;
+outline: 3px groove  #000000;
+outline: invert;
+font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+color: lime;
+border: 5px groove  #259b12;
+background-color:#7f7f7f;
+text-align: center;
+text-transform: uppercase;
+font-size: large;	
+}
+
+
+#footer p {
+text-shadow: none;
+font-size: small;
+color: black;
+text-align: center;
+}
+
